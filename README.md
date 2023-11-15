@@ -2,7 +2,7 @@
 ## ASSUMPTIONS
 1. Records updated in both the topic are always in order, i.e ball 0.2 is always published to topic before ball 0.3.
 2. Record pertaining to a ball is published on BOTH the topic. There cannot be the case where update related to ball 0.3 is published to one topic and not to other.
-3. There can be more than one update for a ball and the latest update is addressed. Therefore, there can be two output for a single delivery.
+3. There can be more than one update for a ball and the latest update is addressed. Therefore, there can be two output print for a single delivery.
 4. Updates to the topic are made per match/innings. 
 
 ## DESIGN
