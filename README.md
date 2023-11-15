@@ -12,5 +12,8 @@
 
 ## PREREQUISITES
 1. KAFKA topics "run" and "wicket" should be created with one partition (as partition specific is not handled)
+2. Jdk 11 needs to be used.
+
+The source code can be easily imported to any IDE (intellij) and run.
    
 
